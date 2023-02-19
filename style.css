@@ -1,0 +1,78 @@
+.offer-text{
+    font-size: .81rem;
+    text-align: center;
+    color:#fff;
+    font-family: "gopher";
+}
+.bar{
+    background: #b7804a;
+    padding:6.7px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+*{
+    margin: 0;
+}
+
+.main-nav{
+    display: inline-flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cat-logo{
+    width:90px;
+    height:34px;
+    margin-left: 200px;
+    cursor: pointer;
+    transition-property:transform ;
+    transition-duration: 0.3s;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in;
+}
+
+.search-bar{
+    border: 1px solid #e2eeee;
+   color: darkslategray;
+   padding-top:10px;
+   padding-bottom: 10px;
+   padding-left: 15px;
+   padding-right: 2px;
+   font-size: 30px;
+   margin-left:200px;
+   border-radius: 5px 0 0 5px;
+   display: flex;
+   transform: translate(-1%,-15.5%);
+   
+}
+
+.search-bar{
+    display: inline-flex;
+    cursor:text;
+}
+
+.bar-text{
+    font-size: .875rem;
+    margin-right: 270px;
+    color: #747c84;
+   letter-spacing: 1.1px;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.search-div{
+    margin-right: 12.9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.store{
+    padding-bottom: 10px;
+    margin-left: 21.5px;
+}
+.cat-logo:hover{
+    transform: translateY(-10px);
+
+}
